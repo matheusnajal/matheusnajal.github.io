@@ -36,10 +36,14 @@ body {
     position: relative;
     width: 66rem;
     height: 45rem;
+    padding: 2rem;
+    background: red;
 }
 
 .cover {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 50%;
     height: 100%;
     background: var(--cover-color);
@@ -71,4 +75,8 @@ body {
     background: var(--pages-color);
     box-shadow: 0 0 .6rem rgba(0, 0, 0, .1);
     display: flex;
+}
+
+.profile-page {
+   background: seagreen; 
 }
